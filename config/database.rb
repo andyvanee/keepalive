@@ -18,8 +18,6 @@ postgres = URI.parse(ENV['DATABASE_URL'] || '')
 ActiveRecord::Base.configurations[:development] = {
   :adapter   => 'postgresql',
   :database  => 'keepalive_development',
-  :username  => 'darron',
-  :password  => '',
   :host      => 'localhost',
   :port      => 5432
 
@@ -38,8 +36,6 @@ ActiveRecord::Base.configurations[:production] = {
 ActiveRecord::Base.configurations[:test] = {
   :adapter   => 'postgresql',
   :database  => 'keepalive_test',
-  :username  => 'root',
-  :password  => '',
   :host      => 'localhost',
   :port      => 5432
 
