@@ -31,7 +31,7 @@ gem 'padrino', '0.12.0'
 
 gem 'httparty'
 
-gem 'clockwork'
+gem 'clockwork', '~> 0.7.3'
 
 gem 'foreman'
 
