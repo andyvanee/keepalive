@@ -1,3 +1,12 @@
+GIT
+  remote: git@github.com:robisenberg/clockwork.git
+  revision: 7f9a6b1e0fe9a1de147e43985790a7d10e4d1216
+  ref: 7f9a6b1e0fe9a1de147e43985790a7d10e4d1216
+  specs:
+    clockwork (0.7.3)
+      activesupport
+      tzinfo
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -20,9 +29,6 @@ GEM
     atomic (1.1.15)
     bcrypt-ruby (3.1.2)
     builder (3.1.4)
-    clockwork (0.7.3)
-      activesupport
-      tzinfo
     diff-lcs (1.2.5)
     dotenv (0.9.0)
     erubis (2.7.0)
@@ -119,7 +125,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord (>= 3.1)
   bcrypt-ruby
-  clockwork (~> 0.7.3)
+  clockwork!
   erubis (~> 2.7.0)
   foreman
   httparty

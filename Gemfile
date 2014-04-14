@@ -31,7 +31,8 @@ gem 'padrino', '0.12.0'
 
 gem 'httparty'
 
-gem 'clockwork', '~> 0.7.3'
+# gem 'clockwork', '~> 0.7.3'
+gem 'clockwork', :git => 'git@github.com:robisenberg/clockwork.git', :ref => '7f9a6b1e0fe9a1de147e43985790a7d10e4d1216'
 
 gem 'foreman'
 
