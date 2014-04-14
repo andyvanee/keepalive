@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:robisenberg/clockwork.git
+  remote: git://github.com/robisenberg/clockwork.git
   revision: 7f9a6b1e0fe9a1de147e43985790a7d10e4d1216
   ref: 7f9a6b1e0fe9a1de147e43985790a7d10e4d1216
   specs:
