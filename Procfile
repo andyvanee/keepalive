@@ -1,2 +1,2 @@
 web: bundle exec unicorn -p $PORT -c ./config/unicorn.rb
-keepalive: bundle exec rake clockwork
+keepalive: bundle exec ruby lib/keepalive.rb
